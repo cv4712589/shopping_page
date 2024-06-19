@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==CSS========================-->
+    <script type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="imgeff.css">
+    <link rel="stylesheet" href="index_css.css">
+    <link rel="stylesheet" href="cart.css">
+    <!--Bootstrap外部連結檔案(CSS/JavaSprite)-->
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <script src="./_js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="jquery.store.js"></script>
+
+    <!--web icon-->
+    <link rel="shortcut icon" href="./_image/shortcut_icon.png"
+      type="image/x-icon" />
+    <title>ReLife</title>
+    <!--nav導覽列-->
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container-fluid">
+        <ul class="me-auto">
+          <li><a href="index2.html"><img src="./_image/ReLife_LOGO.png"
+                style="height: 30px; width: 30px;"></a>
+          </li>
+          <li><a href="About2.html">About</a></li>
+          <li><a href="Products2.html">Products</a></li>
+          <li><a href="Connection2.html">Connection</a></li>
+        </ul>
+        <ul>
+          <li class="ms-auto">HI 歡迎回來</li>
+          <li><a href="../index.html" id="logout">登出</a></li>
+          <li><a href="cart.html"><img
+                src="./_image/icon/icon_shopping_cart.png" alt></a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--Sytle-->
+    <style>
+    .cardimgprd {
+      width: 100%;
+      /* or any custom size */
+      height: 100%;
+      object-fit: contain;
+    }
+  </style>
+  </head>
+
+  <body>
+    <!--part01_banner-->
+    <div style="position:relative;">
+      <img src="./_image/context-05-2.jpg" class="img-width-about">
+    </div>
+    <!--part02_購物畫面-->
+    <div class="album-pannel" id="site" style=" background-color: white;">
+      <ul class="album-list" style="padding-left: 0px; margin-top: 20px;">
+        <li class="album-item" style=" margin: 20px;">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-1.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>經典系列｜棉質漁夫帽</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="經典系列｜棉質漁夫帽"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>經典系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-2.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>純粹系列｜棉質重選T shirt</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="純粹系列｜棉質重選T shirt"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>純粹系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-3.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>經典系列｜ReLife鴨舌帽</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="經典系列｜ReLife鴨舌帽"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>經典系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-4.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>經典系列｜奶茶色帽T</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="經典系列｜奶茶色帽T"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>經典系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-5.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>浪花系列｜浪花漁夫帽</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="浪花系列｜浪花漁夫帽"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>浪花系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-6.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>浪花系列｜棉質點點浪花白T</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="浪花系列｜棉質點點浪花白T"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>浪花系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-7.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>浪花系列｜棉質浪花白T</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="浪花系列｜棉質浪花白T"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>浪花系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group-8.png"></a></div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>純粹系列｜棉質重選黑T</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="純粹系列｜棉質重選黑T"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>純粹系列</div>
+        </li>
+        <li class="album-item">
+          <div class="album-cover"><a href="#"><img class="cardimgprd"
+                src="./_image/mockup/products/Mask group.png"></a>
+          </div>
+          <div class="product-bottom text-center album-summary">
+            <h5 style="float: left;"><b>純粹系列｜棉質重選芥末綠T</b></h5>
+            <span style="float: left;">尺寸：one size ｜ 顏色：one color</span>
+
+            <br>
+            <div class="product-description" data-name="純粹系列｜棉質重選芥末綠T"
+              data-price="750">
+              <span class="prdprice" style="margin-right: 90%;"><br><strong>$750</strong></span>
+              <form class="add-to-cart" action="cart.html" method="post"
+                style="margin-top: 10%;">
+                <div style="float: left;">
+                  <label for="qty-2">數量</label>
+                  <input type="text" name="qty-2" id="qty-2" class="qty"
+                    value="1" />
+                </div>
+                <p><input type="submit" value="加入購物車" class="btn" /></p>
+              </form>
+            </div>
+          </div>
+          <div class="tag product"><i class="icon"></i>純粹系列</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+<!--footer-->
+<footer style="background-color: rgb(70, 70, 70);">
+  <div class="footer-container">
+    <!--**comoany-box**-->
+    <div class="footer-company-box">
+      <!-- logo -->
+      <div class="divcenterver">
+        <img style="width: 80%; height: 80%;"
+          src="./_image/icon/footer_logo.png" alt>
+      </div>
+    </div>
+    <!--**link-box***-->
+    <div class="footer-link-box">
+      <strong><a href="About.html" style="color: white;">About</a></strong>
+      <ul>
+        <li><a href="index2.html">ReLife</a></li>
+        <li><a href="About2.html">理念</a></li>
+        <li><a href="About2.html">製成</a></li>
+        <li><a href="About2.html">概念</a></li>
+      </ul>
+    </div>
+
+    <!--**link-box***-->
+    <div class="footer-link-box">
+      <strong><a href="Connection.html" style="color: white;">Connection</a></strong>
+      <ul style="color: white;">
+        <li>
+          <p>Email：Relife@gmail.com</p>
+        </li>
+        <li>
+          <p>電話：04-2299-258</p>
+        </li>
+        <li>
+          <p>傳真：04-2299-257</p>
+        </li>
+        <li>
+          <p>地址：臺中市A區BC路123號</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!--**bottom**********************-->
+
+  <!-- </footer>-->
+  <div class="footer-bottom">
+    <span class="footer-owner" style="margin-left: 5%; margin-right: 5%;">Made
+      By EEIT73-17-Anting</span>
+    <span class="copyright" style="margin-left: 5%; margin-right: 5%;">&#169;
+      Copyright 2023 - ReLife</span>
+  </div>
+
+</html>

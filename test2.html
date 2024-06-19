@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--==CSS========================-->
+  <link rel="stylesheet" href="card.css" />
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="imgeff.css">
+  <link rel="stylesheet" href="index_css.css">
+  <link rel="stylesheet" href="cart.css">
+  <!--Bootstrap外部連結檔案(CSS/JavaSprite)-->
+  <link rel="stylesheet" href="./_css/bootstrap.css">
+  <script src="./_js/bootstrap.bundle.js"></script>
+  <!--web icon-->
+  <link rel="shortcut icon" href="./_image/shortcut_icon.png" type="image/x-icon" />
+  <title>ReLife</title>
+  <!--nav導覽列-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</head>
+
+<body>
+  <!--part01_輪播廣告圖-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./_image/banner-01.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./_image/banner-02.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./_image/banner-03.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ 
+  <!--part02_Relife介紹、製成介紹-->
+  <div style="display: flex; margin: 50px 200px;">
+    <div style="margin-right: 50px;">
+      <img src="./_image/about_img_1.png" alt="">
+    </div>
+    <div style="margin-top: 150px;">
+      <h1 style="float: left;"><b>ReLife</b></h1>
+      <p style="word-wrap: break-word; float: left;">&emsp;&emsp;我們致力於將潮流時尚與環境保護做結合，創造出一項嶄新不敗的時尚品牌—ReLife，希望透過他，能夠讓更多人了解海洋汙染、垃圾氾濫等問題。
+        <br><br>
+        &emsp;&emsp;生在海島國家中，臺灣人可以接觸到海洋的機會很多，但在教育中卻很少提到有關於海洋環境保護的知識，而熱愛飲用手搖飲料間接造成了所多的塑料垃圾。
+        <br><br>&emsp;&emsp;如果能夠將那些垃圾換個方式變成所有人都能使用的物品，
+        你會願意嘗試嗎?
+        <br><br>
+        <button type="button" class="btn btn-outline-secondary" style="margin-top: 10px;" src="About.html">了解</button>
+      </p>
+      
+    </div>
+    
+  </div>
+
+  <!--part03_折價券遊戲-->
+  <div style="position:relative;">
+    <img src="./_image/context-06-2.jpg" class="img-width" />
+    <button type="button" value="按钮" style="position:absolute; right:200px; bottom:100px;"
+      class="btn btn-primary btn-lg">了解</button>
+  </div>
+
+  <!-- part04_商品圖呈現 -->
+  <div id="ppcard" style="margin: 50px auto;">
+    <figure class="snip1482">
+      <figcaption>
+        <h2>純粹</h2>
+        <h2>系列</h2>
+      </figcaption>
+      <a href="#"></a><img src="./_image/mockup/products/Mask group-2.png" alt="sample45" />
+    </figure>
+    <figure class="snip1482">
+      <figcaption>
+        <h2>經典</h2>
+        <h2>系列</h2>
+      </figcaption>
+      <a href="#"></a><img src="./_image/mockup/products/Mask group-3.png" alt="sample59" />
+    </figure>
+    <figure class="snip1482">
+      <figcaption>
+        <h2>浪花</h2>
+        <h2>系列</h2>
+      </figcaption>
+      <a href="#"></a><img src="./_image/mockup/products/Mask group-7.png" alt="sample60" />
+    </figure>
+  </div>
+  <!-- part04_商品圖呈現_JS -->
+  <script>
+    /* Demo purposes only */
+    $(".hover").mouseleave(
+      function () {
+        $(this).removeClass("hover");
+      }
+    );  
+  </script>
+
+  </script>
+</body>
+
+<!--footer-->
+<footer style="background-color: rgb(70, 70, 70);">
+  <div class="footer-container">
+    <!--**comoany-box**-->
+    <div class="footer-company-box">
+      <!-- logo -->
+      <div class="divcenterver">
+        <img style="width: 80%; height: 80%;" src="./_image/icon/footer_logo.png" alt>
+      </div>
+    </div>
+    <!--**link-box***-->
+    <div class="footer-link-box">
+      <strong>About</strong>
+      <ul>
+        <li><a href="#">ReLife</a></li>
+        <li><a href="#">理念</a></li>
+        <li><a href="#">製成</a></li>
+        <li><a href="#">概念</a></li>
+      </ul>
+    </div>
+    <!--**link-box***-->
+    <div class="footer-link-box">
+      <strong>Products</strong>
+      <ul>
+        <li><a href="#">短袖</a></li>
+        <li><a href="#">長袖</a></li>
+        <li><a href="#">帽子</a></li>
+        <li><a href="#">褲子</a></li>
+      </ul>
+    </div>
+    <!--**link-box***-->
+    <div class="footer-link-box">
+      <strong>Connection</strong>
+      <ul style="color: white;">
+        <li>
+          <p>Email：Relife@gmail.com</p>
+        </li>
+        <li>
+          <p>電話：04-2299-258</p>
+        </li>
+        <li>
+          <p>傳真：04-2299-257</p>
+        </li>
+        <li>
+          <p>地址：臺中市A區BC路123號</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!--**bottom**********************-->
+
+  <!-- </footer>-->
+  <div class="footer-bottom">
+    <span class="footer-owner" style="margin-left: 5%; margin-right: 5%;">Made
+      By EEIT73-17-Anting</span>
+    <span class="copyright" style="margin-left: 5%; margin-right: 5%;">&#169;
+      Copyright 2023 - ReLife</span>
+  </div>
+
+</html>

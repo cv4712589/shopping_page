@@ -1,0 +1,139 @@
+/*==footer================================*/
+footer{
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.footer-container{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-company-box,
+.footer-subscribe{
+    max-width: 330px;
+}
+.footer-company-box .footer-logo{
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.footer-company-box p,
+.footer-subscribe p{
+    color: white;
+    margin: 5px 0px;
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-social a{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    color: #333333;
+    font-size: 0.9rem;
+}
+.footer-link-box strong,
+.footer-subscribe strong{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+.footer-link-box ul{
+    margin-top: 5px;
+    text-align: left;
+}
+.footer-container ul li a{
+    color: white;
+    display: flex;
+    margin-bottom: 5px;
+    transition: all ease 0.3s;
+    font-weight: 500;
+}
+.footer-container ul li a:hover{
+    color: rgb(91, 164, 225);
+}
+.subscribe-box{
+    width: 100%;
+    border: 1px solid #dadada;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10px;
+}
+.subscribe-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px 15px;
+}
+.subscribe-box button{
+    border: none;
+    outline:none;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 40px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+    border-top: 1px solid #000000;
+    padding: 20px 0px;
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+}
+.footer-bottom span{
+    color: #252525;
+    font-size: 0.9rem;
+}
+
+@media(max-width:1200px){
+    .footer-link-box{
+        width: 60%;
+    }
+    
+    
+}
+
+@media(max-width:768px){
+    .footer-link-box{
+        width: 90%;
+        margin-left: 2.5rem;
+    }
+    .footer-container{
+        display: inline-block;
+    }
+    .divcenterver img{
+        display:none;
+    }
+    footer{
+        text-align: left;
+        
+    }
+}
